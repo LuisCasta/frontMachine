@@ -1,0 +1,54 @@
+@import url('styles-general.css');
+
+.header{
+    height: 65vh;
+    width: 100%;
+    background-image:url('src/header.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text{
+    margin-top: 100px;
+    width: 80%;
+}
+.text h1{
+    color: var(--blanco);
+    font-family: var(--teko);
+    font-weight: var(--medium);
+    font-size: var(--tamano-titulo);
+    
+}
+
+.text p{
+    color: var(--blanco);
+    font-size: var(--tamano-parrafo);
+    font-family: var(--inter);
+    border-bottom: 3px solid var(--naranja-fuerte);
+    display: inline;
+}
+
+.text button{
+    margin-top: 30px;
+    width: 260px;
+    height: 61px;
+    border-radius: 50px;
+    border: 2px solid var(--blanco);
+    outline:none;
+    background-color: transparent; 
+}
+
+.text button a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 25px;
+}
+
+
+

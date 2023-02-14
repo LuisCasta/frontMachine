@@ -1,0 +1,32 @@
+:root{
+
+    /* Paleta de colores */
+
+    --naranja:#F28242;
+    --azul:#02182B;
+    --azul-logo:#2A44A3;
+    --naranja-fuerte:#F34D24;
+    --gris-claro:#D9D9D9;
+    --gris-oscuro:#474747;
+    --blanco:#fff;
+    --width:90%;
+
+    /* TIPOGRAFÍA */
+    --inter:'Inter';
+    --teko:'Teko';
+
+    /* anchura de letra */
+    --medium:regular;
+
+    /* Tamaño de letra */
+    --tamano-titulo:60px;
+    --tamano-subtitulo:40px;
+    --tamano-parrafo:30px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,75 @@
+
+@import url(styles-general.css);
+.nav{
+    /* height: 150px; */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    background-color: var(--blanco);
+    width: 100%;
+    z-index: 200;
+}
+nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.logo img{
+
+    width: 70px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 2rem;
+    text-decoration: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--azul);
+}
+
+.icons{
+    display: flex;
+}
+
+.icons i{
+    margin-right: 15px;
+    color: var(--azul);
+}
+
+.bx-search{
+    margin-right: 5px;
+}
+
+nav button{
+    height: 39px;
+    width: 166px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: var(--naranja);
+}
+
+nav button a{
+    text-decoration: none;
+    color: var(--blanco);
+}
