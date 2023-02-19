@@ -30,3 +30,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+h2{
+    font-weight:500;
+    font-size: 50px;
+    font-family: var(--teko);
+    position: relative;
+    display: inline-block;
+    }
+    
+    h2::after{
+        content: '';
+        width:100%;
+        height: 3px;
+        position: absolute;
+        display: block;
+        bottom: 15px;
+        left: 0;
+        background-color: var(--naranja-fuerte);
+    }

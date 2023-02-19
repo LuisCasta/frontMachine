@@ -6,7 +6,7 @@
     position: fixed;
     background-color: var(--blanco);
     width: 100%;
-    z-index: 200;
+    z-index: 250;
 }
 nav {
     display: flex;

@@ -1,8 +1,7 @@
 @import url(styles-general.css);
 
 .section-products{
-    height: 100vh;
-    margin-top: 150px;
+    margin:150px auto;
 
 }
 .text-products{

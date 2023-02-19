@@ -1,0 +1,89 @@
+@import url('styles-general.css');
+
+.section-about{
+    width: 90%;
+    margin: auto;
+}
+.container-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 200px;
+}
+
+.container-grid{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 3rem;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+.text-about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    
+}
+
+.numeracion p{
+    font-size: clamp(40px, 50%,7rem);
+    position: relative;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-right: 100px;
+    font-family: var(--inter);
+    font-weight: 800;
+    color: var(--gris-oscuro);
+}
+
+.numeracion p::after{
+    content: '';
+    width: 80px;
+    height: 80px;
+    border-radius:10rem;
+    background-color: var(--gris-claro);
+    position: absolute;
+    z-index: -1;
+}
+
+.text-grid h3{
+    font-family: var(--teko);
+    font-weight: 500;
+}
+
+.text-grid p{
+    font-family: var(--inter);
+    font-size: 16px;
+}
+
+.title-about{
+    margin-bottom: 50px;
+}
+
+.title-about h2{
+    text-align: center;
+    font-weight:500;
+    /* border-bottom: 3px solid var(--naranja); */
+    font-size: 50px;
+    font-family: var(--teko);
+    display: inline;
+    position: relative;
+}
+
+.title-about h2::after{
+    content: '';
+    width: 100%;
+    background-color: var(--naranja-fuerte);
+    height: 3px;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+
